@@ -1,45 +1,44 @@
-<h3>Installation</h3>
+### Installation
+
 Extract directory "cuho_welcome_page" from archive and copy to the system/expressionengine/third_party/ catalog of your site install.
-<br/>
-Go to <b>"Add-ons > Extensions"</b> in top menu and seek for <b>"CUHO Welcome Page"</b> module.
+
+Go to **"Add-ons > Extensions"** in top menu and seek for **"CUHO Welcome Page"** module.
 Click "Install".
 
-<br/><br/>
+### Welcome page setup
 
-<h3>Welcome page setup</h3>
-<ol>
-	<li>After addon installation got to <b>"Add-ons > Extension"</b> and find <b>"Settins"</b> link for the "<b>"CUHO Categories Groups</b>".</li>
+1.  After addon installation got to **"Add-ons > Extension"** and find **"Settins"** link for the "**"CUHO Categories Groups**".
+2.  Select entry to consider as a "Welcome page" from drop-down menu list and enter enrty URL.
 
-	<li>Select entry to consider as a "Welcome page" from drop-down menu list and enter enrty URL.<br/>
-Enter page URL to show or redirect user into field "Page URL".</li>
+    Enter page URL to show or redirect user into field "Page URL".
+3.  To force show page display/redirect for all user, regardless previous show/redirect &mdash; check **"Force page display/redirect next time" before save settings**
 
-	<li>
-		To force show page display/redirect for all user, regardless previous show/redirect &mdash; check <b>"Force page display/redirect next time" before save settings</b>
-	</li>
-</ol>
-<br/>
-<i>
-	<b>Please note:</b> Due to flexible URL and template structure within ExpressionEngine we cannot determine real front-end URL for any entry you have.  You can simply copy URL from the site and paste into the field
-</i>
-<br/>
+_
+	**Please note:** Due to flexible URL and template structure within ExpressionEngine we cannot determine real front-end URL for any entry you have.  You can simply copy URL from the site and paste into the field
+_
 
-<h4>Controlling welcome page</h4>
-Extension will control selected page status and show will show/redirect welcome page <b>only</b> if page status are set to <b>"Open"</b>.<br/>
+#### Controlling welcome page
+
+Extension will control selected page status and show will show/redirect welcome page **only** if page status are set to **"Open"**.
+
 If you want to disable "Welcome page" simply turn-off entry ( set status "Close" )
 
-<h3>Redirect users back from the welcome page</h3>
-To redirect users back and do not show page next time — add GET-parameter <code><b>_ch_wpp</b></code> to the redirection URL.<br/>
-GET-parameter will be stripped and user will see clean URL without any addional query-parts.<br/>
-<br/>
-For e.g.: redirection URL <code>http://domain.com/home/about?_ch_wpp=1</code> will become <code>http://domain.com/home/about</code> right after user click this URL and will see no "Welcome page" next time.
-<br/>
+### Redirect users back from the welcome page
 
-<h4>Form redirection</h4>
+To redirect users back and do not show page next time — add GET-parameter `**_ch_wpp**` to the redirection URL.
+
+GET-parameter will be stripped and user will see clean URL without any addional query-parts.
+
+For e.g.: redirection URL `http://domain.com/home/about?_ch_wpp=1` will become `http://domain.com/home/about` right after user click this URL and will see no "Welcome page" next time.
+
+#### Form redirection
+
 If you are able to build FORM with POST-request method, you may use no additional URL part — use hidden field for this purpose:
-<code>
-	&lt;input type=&quot;hidden&quot; name=&quot;_ch_wpp&quot; value=&quot;1&quot; /&gt;
-</code>
-<br/>
-<h3>Support, requests and wishes</h3>
+`
+	<input type="hidden" name="_ch_wpp" value="1" />
+`
+
+### Support, requests and wishes
+
 We are always open to help and willing to make our products better.
-If you have any request you can contact authors by mail: <a href="mailto:info@cuho.eu">info@cuho.eu</a>
+If you have any request you can contact authors by mail: [info@cuho.eu](mailto:info@cuho.eu)
