@@ -7,7 +7,7 @@ Click "Install".
 
 ### Welcome page setup
 
-1.  After addon installation got to **"Add-ons > Extension"** and find **"Settins"** link for the "**"CUHO Categories Groups**".
+1.  After addon installation got to **"Add-ons > Extension"** and find **"Settins"** link for the "**CUHO Welcome Pages**".
 2.  Select entry to consider as a "Welcome page" from drop-down menu list and enter enrty URL.
 
     Enter page URL to show or redirect user into field "Page URL".
